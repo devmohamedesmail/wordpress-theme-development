@@ -1,0 +1,3 @@
+[29-Nov-2025 05:56:57 UTC] PHP Deprecated:  Function the_block_template_skip_link is <strong>deprecated</strong> since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/mohamed/Local Sites/theme-development/app/public/wp-includes/functions.php on line 6121
+[29-Nov-2025 05:58:48 UTC] Automatic updates starting...
+[29-Nov-2025 05:58:48 UTC] Automatic updates complete.
