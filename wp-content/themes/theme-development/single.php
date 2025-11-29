@@ -8,6 +8,7 @@
     <?php if (have_posts()): ?>
         <?php while (have_posts()): ?>
              <?php the_post(); ?>
+             <h1>this is single.php</h1>
              <h2>
                 <a href="<?php the_permalink(); ?>">  <?php the_title(); ?> </a>
                
@@ -17,7 +18,7 @@
              <?php the_date() ?>
              <?php the_author() ?>
              <?php the_tags() ?>
-             <!-- <h4><?php the_excerpt(); ?></h4> -->
+             <h4><?php the_content(); ?></h4>
 
 
         <?php endwhile; ?>

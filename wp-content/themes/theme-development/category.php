@@ -6,6 +6,7 @@
 
 
     <?php if (have_posts()): ?>
+        <h1>this is category php</h1>
         <?php while (have_posts()): ?>
              <?php the_post(); ?>
              <h2>

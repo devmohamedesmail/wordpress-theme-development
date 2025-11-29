@@ -8,6 +8,6 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Theme Development</h1>
-        <p>This is the index.php file of the Theme Development theme.</p>
+        <h1><?php bloginfo('name') ?></h1>
+        <p><?php bloginfo('description') ?></p>
     </header>
